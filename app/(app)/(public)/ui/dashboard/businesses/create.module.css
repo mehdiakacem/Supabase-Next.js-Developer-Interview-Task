@@ -1,0 +1,45 @@
+.container {
+	background-color: var(--bgSoft);
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.form input {
+	padding: 30px;
+	background-color: var(--bg);
+	color: var(--text);
+	border: 2px solid #28424a;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	width: 45%;
+}
+
+.form .save {
+	width: 100%;
+	padding: 30px;
+	background-color: rgb(5, 77, 59);
+	color: var(--text);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 10px;
+
+}
+
+.form .cancel {
+	width: 100%;
+	padding: 30px;
+	background-color: rgb(112, 35, 35);
+	color: var(--text);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
